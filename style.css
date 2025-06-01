@@ -1,0 +1,178 @@
+body{
+    background-color: black;
+    color:deepskyblue;
+    font-family: "Jersey 10";
+}
+.jersey-10-regular {
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  h1 {
+    font-size:1.1cm
+  }
+  .h1:hover{
+    transition: 2s;
+    color:blue;
+  }
+  h2{
+    font-size:0.8cm;
+    text-align: center;
+  }
+  .Welcome:hover{
+    transition: 2.4s;
+    color:forestgreen;
+  }
+  p{
+    font-size: large;
+    text-align: center;
+  }
+
+  .about{
+    text-align: center;
+  }
+  .about:hover{
+
+  }
+  p:hover{
+    transition:ease-in-out 2s;
+    box-shadow: 0 0 10px 3px;
+    border-radius: 5px;
+  }
+  h3{
+    text-align: center;
+    font-size: 140%;
+  }
+.a1{
+    text-align:left;
+    font-size: 190%;
+    padding-left: 15%;
+}
+.a2{
+    font-size: 190%;
+    text-align: right;
+    padding-left: 46%;
+}
+.a2:hover{
+    transition: 0.3s;
+   opacity: 0;
+   color:crimson;
+}
+.a1:hover{
+    transition: 1s;
+    color: rgb(115, 199, 31);
+}
+.img1 {
+  height:2cm;
+  width: 2cm;
+}
+.img2 {
+  height:2cm;
+  width: 2cm;
+  float: right;
+}
+.img3{
+  height:2cm;
+  width: 2cm;
+  
+}
+.task2:visited{
+  color:silver;
+}
+.task2{
+  color: blueviolet;
+}
+.b {
+  width: 50px;
+}
+.catalog{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.product{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.product a{
+    margin-top: 10px;
+    width: 150px;
+}
+main img {
+    width:200px;
+    height: 200px;
+    box-shadow: 2px 3px 100px 0 deepskyblue;
+    padding: 20px;
+    border-radius: 60px;
+}
+.buysrca{
+   border-radius: 60px;
+   background-color: black;
+   padding: 10px;
+   margin-top: -5px;
+   border: 5px deepskyblue;
+}
+article:hover{
+  transition: 0.5s;
+  transform: scale(1.1);
+  color:yellowgreen;
+}
+.second{
+    background-color:forestgreen;
+}
+.h1{
+  position: fixed;
+  background-color: black;
+  padding: 4px;
+  border-radius: 15px;
+  border: 2.5px dashed deepskyblue;
+  top: 6px;
+}
+.Welcome{
+  margin-top: 3cm;
+}
+.korzina{
+  margin-top: 150px;
+}
+.basket_a{
+  text-decoration:overline;
+  font-size: 2pc;
+  color:brown;
+  margin-left: 10%;
+}
+.basket_a2{
+  font-size: 2pc;
+  text-decoration: overline;
+  float:right;
+  margin-right: 10%;
+}
+.buysrca{
+  color: deepskyblue;
+  text-decoration: none;
+}
+footer p{
+  text-align: left;
+  font-size: xx-large;
+  color: black;
+  margin-left: 5px;
+}
+footer{
+  background-image: linear-gradient(to left,black, deepskyblue);
+  border-radius: 5px;
+
+}
+.b_img{
+  border-radius: 30px;
+  margin-left:650px;
+  margin-bottom: 10px;
+}
+.b_img:hover{
+  border: 9px dashed black;
+  transition: 1.5s;
+}
